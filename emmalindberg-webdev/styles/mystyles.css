@@ -137,6 +137,9 @@
     color: white;
     font-size: large;
 }
+.tabtitle {
+    color:white;
+}
 a:visited {
     color:white;
 }
