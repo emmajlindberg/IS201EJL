@@ -1,0 +1,142 @@
+/*! Emma Lindberg, June 13*/
+.body {
+        background-image: linear-gradient(rgba(248, 205, 192, 0.65), rgba(247, 185, 162, 0.65)), url("../assets/images/flowerbg.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+@font-face {
+    font-family: vesterbro;
+    src: url("../assets/fonts/tryvesterbro/TRYVesterbro-Poster.otf");
+}
+@font-face {
+    font-family: oswald;
+    src: url("../assets/fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: sacramento;
+    src: url("../assets/fonts/sacramento/Sacramento-Regular.ttf");
+}
+.site-heading-lower {
+    font-family: vesterbro;
+    color: white
+}
+.site-heading-upper {
+    font-family: oswald;
+    color: goldenrod;
+}
+#mainNav {
+    background-color: rgba(236, 141, 106, 0.861);
+    font-family: oswald;
+  }
+  @media (min-width: 992px) {
+    .intro .intro-img {
+      width: 60%;
+      float: right
+    }}
+.section-heading-upper {
+    font-family: oswald;
+    color:rgb(129, 92, 0)
+}
+.section-heading-lower {
+    font-family: sacramento;
+    text-transform: lowercase;
+    color:darkgoldenrod
+}
+.footer {
+    background-color: rgba(236, 141, 106, 0.861);
+  }
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+.navname {
+    font-family: vesterbro;
+    color: rgba(255, 255, 255, 0.831);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navname:hover {
+    color: rgb(255, 255, 255);
+}
+.navname2 {
+    font-family: oswald;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+}
+.resume {
+    font-family: oswald;
+    color:rgb(129, 92, 0);
+    font-size: medium;
+}
+.resume-name {
+    font-family: vesterbro;
+    color:rgba(236, 141, 106);
+}
+.tabbody {
+    background-image: linear-gradient(rgba(245, 208, 196, 0.873), rgba(252, 211, 197, 0.877)), url("../assets/images/flowerbg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.tableaucommon {
+    position: absolute;
+}
+.tableauheader{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+   background-color: rgba(236, 141, 106, 0.861);
+   font-family: vesterbro;
+   color: white;
+   font-size: 30px;
+   padding-top: 30px;
+   padding-left: 15px;
+}
+.tableaumainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 64px;
+    padding-right: 5px;
+}
+.tableaufooter {
+    background-color: rgba(236, 141, 106, 0.861);
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 50px;
+    font-size: 15px;
+    color: rgb(245, 218, 194);
+    text-align: center;
+    position:fixed;
+}
+.tableausubheader {
+    text-align: center;
+    font-family: oswald;
+    color: white;
+    font-size: medium;
+    padding-top: 40px;
+}
+.caption{
+    font-family: oswald;
+    color: white;
+    font-size: large;
+}
+a:visited {
+    color:white;
+}
